@@ -1,0 +1,145 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 30px;
+  background-color: white;
+}
+
+.container {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 1px rgba(116, 255, 162, 0.2) solid;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+img {
+  background-position: center;
+}
+
+.header {
+  background-color: #4caf50;
+  border-bottom: 5px solid #388e3c;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.header h1 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.header p {
+  font-size: 0.7rem;
+  margin: 5px 0;
+}
+
+.aboutme {
+  background-color: white;
+  text-align: center;
+  margin: 20px auto;
+  padding: 30px 10px;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.aboutme p {
+  font-size: 1rem;
+}
+
+.main {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f9f9f9;
+}
+
+.main h2 {
+  margin-bottom: 20px;
+}
+
+.portfolio-box {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 60%;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-box:hover {
+    background-color: rgb(226, 255, 230);
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-box h3 {
+  margin-bottom: 10px;
+}
+
+.portfolio-box p {
+  font-size: 1rem;
+}
+
+.portfolio-box img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contact-container {
+  background-color: #f0f0f0;
+}
+
+.contact {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 60%;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .aboutme-container,
+  .main,
+  .contact-container {
+    padding: 20px;
+  }
+
+  .aboutme,
+  .portfolio-box,
+  .contact {
+    width: 100%;
+  }
+
+  .portfolio-box:hover {
+    /* background-color: rgb(226, 255, 230); */
+    /* width: 100%; */
+    transform: scale(1.01);
+    /* box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2); */
+}
+}
