@@ -76,12 +76,17 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   transition: transform 0.5s ease;
+
+  /* display flex */
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
 }
 
 .portfolio-box:hover {
-    background-color: rgb(226, 255, 230);
-    transform: scale(1.01);
-    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(226, 255, 230);
+  transform: scale(1.01);
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-box h3 {
@@ -141,5 +146,5 @@ img {
     /* width: 100%; */
     transform: scale(1.01);
     /* box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2); */
-}
+  }
 }
